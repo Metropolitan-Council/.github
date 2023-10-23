@@ -41,7 +41,7 @@ Use the checklist below to track your progress on these items. Add to the checkl
 ## Repository requirements
 
 1.	The repository must be clean
-	  - No absolute paths; all paths must be relative to project root directory
+	- No absolute paths; all paths must be relative to project root directory
     - No API keys, passwords, credentials, or other “secrets” in plain text. 
     - Scan for secrets with [Talisman](https://thoughtworks.github.io/talisman/) and remove secrets
     - If secrets exist in the git history, consider using a tool like [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or create a new repository and copy/paste all materials (excluding .git/)
@@ -52,10 +52,10 @@ Use the checklist below to track your progress on these items. Add to the checkl
       - !.gitignore
     - All code should be documented, at a minimum describing what the code does, and a description of parameters, returned values and side-effects.
 1.	The code must have an approved OSS license, e.g., MIT, Apache-2.0, BSD-3, with the Metropolitan Council as the license holder.
-	  - Data or documentation repositories should have an appropriate data license, e.g., PDDL-10, CC0-1.0, CC-BY-4.0.
+	- Data or documentation repositories should have an appropriate data license, e.g., PDDL-10, CC0-1.0, CC-BY-4.0.
     - Public domain dedications (CC0, PDDL) relinquish all rights and are usual what we intend when we publish data, but you may find it appropriate in some conditions to maintain copyright and requesting minimal attribution.
     - If a license other than MIT or Apache 2.0 is used, describe why in the request. 
- - Approved licenses are defined in Tech 3-4: Code and Data Licensing Policy
+    - Approved licenses are defined in Tech 3-4: Code and Data Licensing Policy
 1.	A README.md file describes the purpose of the project
 1.	Add appropriate branch protection to the main branch
 
