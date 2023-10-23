@@ -54,8 +54,8 @@ Use the checklist below to track your progress on these items. Add to the checkl
 1.	The code must have an approved OSS license, e.g., MIT, Apache-2.0, BSD-3, with the Metropolitan Council as the license holder.
 	- Data or documentation repositories should have an appropriate data license, e.g., PDDL-10, CC0-1.0, CC-BY-4.0.
     - Public domain dedications (CC0, PDDL) relinquish all rights and are usual what we intend when we publish data, but you may find it appropriate in some conditions to maintain copyright and requesting minimal attribution.
+    - License should have a [Blue Oak Council](https://blueoakcouncil.org/list) rating of Gold, Silver, or Bronze.
     - If a license other than MIT or Apache 2.0 is used, describe why in the request. 
-    - Approved licenses are defined in Tech 3-4: Code and Data Licensing Policy
 1.	A README.md file describes the purpose of the project
 1.	Add appropriate branch protection to the main branch
 
