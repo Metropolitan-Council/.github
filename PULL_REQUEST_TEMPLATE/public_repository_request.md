@@ -2,7 +2,7 @@
 
 ## Request details
 
-Please answer the questions in **bold** with sufficient detail. All sections must be filled out. 
+Please answer the following questions with sufficient detail. All sections must be filled out. 
 
 ### Describe the purpose of the code
 
@@ -19,13 +19,22 @@ Please answer the questions in **bold** with sufficient detail. All sections mus
 ### Do we use the code internally?
 
 <!-- Is the code used in any automated processes onsite? -->
+
 ### Is the code for a mission critical application?
 
+
 ### Describe precautions taken to mitigate risk
+
 <!--Pull-request review process, automated or manual testing procedures, access and push restrictions. Use checklist.-->
+
 ### Describe expected level of outside interaction 
+
 <!-- Popularity, issues, pull-requests from general public or potential collaborators -->
+
 ### Checklist 
+
+Use the checklist below to track your progress on these items, particularly those that have to be done manually through GitHub. Add to the checklist if you complete additional steps
+
 - [ ] Primary repository branch is named "main"
 - [ ] Branch "main" protected
 - [ ] Only specifically noted users (tag users using @) have push privileges to repo on any branch
@@ -51,10 +60,12 @@ Please answer the questions in **bold** with sufficient detail. All sections mus
     - Scan for secrets with [Talisman](https://thoughtworks.github.io/talisman/) and remove secrets
     - If secrets exist in the git history, consider using a tool like [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or create a new repository and copy/paste all materials (excluding .git/)
 1.	The code must meet professional standards
-    - All commit messages, code comments and other documentation are professional and informative.
-    - A .gitignore file is required, and should at a minimum contain:
-      - .*
-      - !.gitignore
+    - All commit messages, code comments and other documentation are professional and informative. If there are substandard commit messages in the git history, consider creating a new repository and copy/pasting all materials (exlcuding .git/).
+    - A .gitignore file is required, and should at a minimum contain
+        ```gitignore
+            .*
+            !.gitignore
+        ```
     - All code should be documented, at a minimum describing what the code does, and a description of parameters, returned values and side-effects.
 1.	The code must have an approved OSS license, e.g., MIT, Apache-2.0, BSD-3, with the Metropolitan Council as the license holder.
 	- Data or documentation repositories should have an appropriate data license, e.g., PDDL-10, CC0-1.0, CC-BY-4.0.
