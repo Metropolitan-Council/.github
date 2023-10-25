@@ -82,6 +82,6 @@ Use the checklist below to track your progress on these items, particularly thos
 - [ ] Your manager must approve this pull-request. If they are on GitHub, [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from them. If your manager is not on GitHub, they can approve by sending an email to a repo admin, who can then add the contents of the email to the pull-request and approve on their behalf. 
 - [ ] Once approved, request a GitHub admin make the repo public. 
 
-(tag manager with @), we request your review on this repository. If you approve making this repository public, please approve the pull-request.
+The repo administrator and maintainer are responsible for ensuring that the repo requirements are upheld as development continues. Review these requirements with all current and new collaborators. 
 
 
