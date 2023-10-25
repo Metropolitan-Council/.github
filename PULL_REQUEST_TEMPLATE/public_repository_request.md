@@ -72,6 +72,7 @@ Use the checklist below to track your progress on these items, particularly thos
     - Public domain dedications (CC0, PDDL) relinquish all rights and are usually what we intend when we publish data, but you may find it appropriate in some conditions to maintain copyright and requesting minimal attribution.
     - License should have a [Blue Oak Council](https://blueoakcouncil.org/list) rating of Gold, Silver, or Bronze.
     - If a license other than MIT, Apache 2.0, or BSD-3 is used, describe why in the request. 
+    - If a license holder other than the Metropolitan Council is listed, explain why and reference any relevant contracts or agreements. 
 1.	A README.md file describes the purpose of the project
 1.	Add appropriate branch protection to the main branch
 
