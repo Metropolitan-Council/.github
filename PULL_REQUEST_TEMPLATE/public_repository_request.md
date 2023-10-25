@@ -6,30 +6,42 @@ Please answer the following questions with sufficient detail. All sections must 
 
 ### Describe the purpose of the code
 
+<!-- A few sentences are sufficient. -->
+
 ### Describe the need for making it public
 
 <!-- Is this code to be shared with external collaborators? -->
 
 ### Describe security risks to the Council if malicious code were injected into the repo (worst case scenario)
 
+<!-- Does the code write/save data outside the repository?
+Does the code work with private or non-public data?
+Are there ways your code could leak sensitive data or credentials, or give an attacker access to systems? -->
+
 ### Does the repository contain only documentation or example code?
 
-<!-- Are all the public functions fully documented?-->
+<!-- Are all the public functions fully documented?
+If the repository is mostly functions for working on a specific problem, should it be a package? Should it be published to a public package repository (e.g., CRAN, r-universe, PyPi)? -->
 
 ### Do we use the code internally?
 
-<!-- Is the code used in any automated processes onsite? -->
+<!-- Is the code used in any automated processes? -->
 
 ### Is the code for a mission critical application?
 
+<!-- If yes, describe application and potential risks. -->
 
 ### Describe precautions taken to mitigate risk
 
-<!--Pull-request review process, automated or manual testing procedures, access and push restrictions. Use checklist.-->
+<!-- How are credentials managed and what steps are taken to ensure they aren't committed to the repo in the future? 
+If you're using GitHub Actions or another CI/CD tool, are you following best practices for pull-requests from forks to prevent leaks of credentials?
+Describe pull-request review process, automated or manual testing procedures, access and push restrictions. Use checklist below. -->
 
 ### Describe expected level of outside interaction 
 
-<!-- Popularity, issues, pull-requests from general public or potential collaborators -->
+<!-- What is the expected repo popularity? 
+How many Issues do you anticipate will be submitted? What is your process for managing them? 
+Are you expecting Issues and pull-requests from the general public? -->
 
 ### Checklist 
 
