@@ -4,22 +4,26 @@
 
 Please answer the questions in **bold** with sufficient detail. All sections must be filled out. 
 
-**Describe the purpose of the code**
+### Describe the purpose of the code
 
-**Describe the need for making it public** 
+### Describe the need for making it public
 
 **Describe security risks to the Council if malicious code were injected into the repo (worst case scenario)**
 
-**Does the repository contain only documentation or example code?**
+### Describe security risks to the Council if malicious code were injected into the repo (worst case scenario)
 
-**Do we use the code internally?** 
+### Does the repository contain only documentation or example code?
 
 **Is the code for a mission critical application?**
 
-**Describe precautions taken to mitigate risk (pull-request review, testing, & etc.)**
+### Do we use the code internally?
 
 Use the checklist below to track your progress on these items. Add to the checklist if you complete additional steps
+### Is the code for a mission critical application?
 
+### Describe precautions taken to mitigate risk
+### Describe expected level of outside interaction 
+### Checklist 
 - [ ] Primary repository branch is named "main"
 - [ ] Branch "main" protected
 - [ ] Only specifically noted users (tag users using @) have push privileges to repo on any branch
@@ -36,7 +40,6 @@ Use the checklist below to track your progress on these items. Add to the checkl
 
 *optional 
 
-**Describe expected level of outside interaction (popularity, issues, pull-requests)**
 
 ## Repository requirements
 
