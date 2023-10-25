@@ -76,11 +76,12 @@ Use the checklist below to track your progress on these items, particularly thos
 1.	A README.md file describes the purpose of the project
 1.	Add appropriate branch protection to the main branch
 
-## Manager approval
+## Steps to approval
 
-If organizational risk is considered low, no further approval required. Otherwise, forward this request as an email to IS security via the ServiceDesk.
+- [ ] If organizational risk is **not** considered low, forward this request as an email to IS security via the ServiceDesk.
+- [ ] Your manager must approve this pull-request. If they are on GitHub, [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from them. If your manager is not on GitHub, they can approve by sending an email to a repo admin, who can then add the contents of the email to the pull-request and approve on their behalf. 
+- [ ] Once approved, request a GitHub admin make the repo public. 
 
 (tag manager with @), we request your review on this repository. If you approve making this repository public, please approve the pull-request.
 
-Once approved the Metropolitan-Council GitHub organization admin or other Council employee with the appropriate GitHub role will change the repository visibility to "Public".
 
